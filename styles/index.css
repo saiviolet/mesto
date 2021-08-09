@@ -1,0 +1,37 @@
+@import url(vendor/normalize.css);
+/* Подлючаем стили шрифтов */
+@import url(vendor/fonts/fonts.css);
+/* body */
+@import url(blocks/page/page.css);
+@import url(blocks/page/__block/page__block.css);
+/* хедер */
+@import url(blocks/header/header.css);
+@import url(blocks/header/__logo/header__logo.css);
+@import url(blocks/header/__line/header__line.css);
+/* главный контент */
+@import url(blocks/content/content.css);
+@import url(blocks/content/_style/content_style_header.css);
+@import url(blocks/content/_style/content_style_main.css);
+@import url(blocks/content/_style/content_style_footer.css);
+/* блок профайл */
+@import url(blocks/profile/profile.css);
+@import url(blocks/profile/__info-full/profile__info-full.css);
+@import url(blocks/profile/__photo/profile__photo.css);
+@import url(blocks/profile/__info/profile__info.css);
+@import url(blocks/profile/__name/profile__name.css);
+@import url(blocks/profile/__activity/profile__activity.css);
+@import url(blocks/profile/__info-first-line/profile__info-first-line.css);
+/* карточки */
+@import url(blocks/cards/cards.css);
+@import url(blocks/cards/__item/cards__item.css);
+@import url(blocks/cards/__image/cards__image.css);
+@import url(blocks/cards/__item-name/cards__item-name.css);
+@import url(blocks/cards/__caption/cards__caption.css);
+
+/* кнопки */
+@import url(blocks/button-edit/button-edit.css);
+@import url(blocks/button-add/button-add.css);
+@import url(blocks/button-like/button-like.css);
+/* футер */
+@import url(blocks/footer/footer.css);
+

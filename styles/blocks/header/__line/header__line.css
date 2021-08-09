@@ -1,0 +1,15 @@
+.header__line {
+  opacity: .7;
+  border: none;
+  background-color: #545454;
+  color: #545454; /* Цвет линии для IE6-7 */
+  height: 1px; /* Толщина линии */
+  width: 100%;
+  margin-top: 41px;
+}
+
+@media (max-width : 320px) {
+  .header__line {
+    margin-top: 31.6 
+  }  
+}
