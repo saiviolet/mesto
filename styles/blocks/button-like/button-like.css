@@ -8,8 +8,8 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
-  width: 19px;
-  height: 22px;
+  width: 22px;
+  height: 19px;
   background-color: #fff;
   opacity: 1; 
 }
@@ -26,7 +26,63 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
-  width: 19px;
-  height: 22px;
+  width: 22px;
+  height: 19px;
   opacity: 1; 
 }
+/* увеличить/уменьшить сердце в карточках разного рр */
+@media (max-width : 917px) {
+
+  .button-like {
+    width: 33px;
+    height: 28px;
+  } 
+  
+  .button-like:active, .button-like:visited {
+    width: 33px;
+    height: 28px;
+  }
+
+} 
+
+@media (max-width : 710px) {
+
+  .button-like {
+    width: 22px;
+    height: 19px;
+  } 
+  
+  .button-like:active, .button-like:visited {
+    width: 22px;
+    height: 19px;
+  }
+
+} 
+
+@media (max-width : 618px) {
+
+  .button-like {
+    width: 33px;
+    height: 28px;
+  } 
+  
+  .button-like:active, .button-like:visited {
+    width: 33px;
+    height: 28px;
+  }
+
+} 
+
+@media (max-width : 425px) {
+
+  .button-like {
+    width: 22px;
+    height: 19px;
+  } 
+  
+  .button-like:active, .button-like:visited {
+    width: 22px;
+    height: 19px;
+  }
+
+} 

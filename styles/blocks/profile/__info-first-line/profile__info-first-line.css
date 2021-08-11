@@ -5,3 +5,11 @@
   align-content: center;
   align-items: center;
 }
+
+@media (max-width : 676px) {
+
+  .profile__info-first-line {
+    justify-content: center;
+  }  
+
+}

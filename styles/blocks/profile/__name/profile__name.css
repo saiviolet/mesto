@@ -3,5 +3,27 @@
   font-size: 42px;
   line-height: 48px;
   padding: 0;
-  margin: 0;
+  margin: 0 18px 0 0;
 }
+
+@media (max-width : 676px) {
+
+  .profile__name {
+    padding-right: 10px;
+    max-width: 100%;
+  }  
+
+} 
+
+@media (max-width : 425px) {
+
+  .profile__name {
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+    padding-right: 10px;
+
+  }  
+
+}
+

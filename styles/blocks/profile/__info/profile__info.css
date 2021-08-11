@@ -1,7 +1,34 @@
 .profile__info {
-  min-width: 336px;
+  /* min-width: 336px; */
+  /* min-width: calc (100% - 38px); */
   display: flex;
   flex-direction: column;
 }
 
+@media (max-width : 676px) {
+
+  .profile__info {
+    padding: 26px 0 0;
+    max-width: calc(100% - 38px);
+    align-items: center;
+  }  
+
+}
+
+/* @media (max-width : 425px) {
+
+  .profile__info {
+    min-width: 282px;
+  }  
+} */
+
 /* для 320 сделать 282пх */
+/* @media (max-width : 320px) {
+
+  .profile__info {
+    padding: 26px 0 36px;
+    min-width: 282px;
+    align-items: center;
+  }  
+
+} */

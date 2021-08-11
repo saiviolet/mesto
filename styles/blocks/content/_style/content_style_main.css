@@ -1,12 +1,11 @@
 .content_style_main {
-  max-width: calc(100% - 400px);
   margin: 0 auto;
-  border: 1px red solid;
 }
 
-@media (max-width : 320px) {
+@media (max-width : 425px) {
 
   .content_style_main {
     max-width: calc(100% - 38px);
   }  
 }
+

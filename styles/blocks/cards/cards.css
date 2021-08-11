@@ -1,14 +1,22 @@
 .cards {
-  padding: 50px 0 0 0;
+  max-width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(282px, max-content));
+  grid-template-columns: repeat(auto-fill, minmax(min-content, 282px));
   gap: 20px 17px;
-
 }
 
-@media (max-width : 1046px) {
+@media (max-width : 1000px) {
 
   .cards {
+    grid-template-columns: repeat(auto-fill, minmax(282px, max-content));
+  }  
+
+} 
+
+@media (max-width : 425px) {
+
+  .cards {
+    grid-template-columns: minmax(282px, 388px);
   }  
 
 } 

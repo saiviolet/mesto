@@ -2,14 +2,22 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 40px;
+  padding-top: 40px;
   align-items: center;
   max-width: 880px;
 }
 
-/* @media (max-width : 320px) {
+
+@media (max-width : 425px) {
 
   .profile {
-    flex-direction: column;
+    justify-content: center;
   }  
-} */
+}
+
+@media (max-width : 320px) {
+.profile {
+    padding-top: 42px;
+    max-width: 320px;
+  }  
+}

@@ -6,10 +6,18 @@
   background-repeat: no-repeat;
 }
 
-@media (max-width : 320px) {
+@media (max-width : 666px) {
+
   .header__logo {
     width: 103.74px;
     height: 24.4px;
+  }  
+
+}
+
+@media (max-width : 425px) {
+
+  .header__logo {
     margin-left: 27px;
   }  
 }

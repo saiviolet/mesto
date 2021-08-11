@@ -32,7 +32,7 @@
       </div>
       <button class="button-add"></button>
     </section>
-    <section class="cards">
+    <!-- <section class="cards content content_style_cards">
       <div class="cards__item">
         <img src="images/gallery/1-kirill-pershin-1088404-unsplash.jpg" alt="Изображение в карточке галереи" class="cards__image">
         <div class="cards__caption">
@@ -75,8 +75,65 @@
           <button class="button-like"></button>
         </div>
       </div>
+    </section> -->
+    <section class="cards content content_style_cards">
+      <div class="cards__item">
+        <img src="images/gallery/pr1.jpg" alt="Изображение в карточке галереи" class="cards__image">
+        <div class="cards__caption">
+          <h2 class="cards__item-name">Карачаевск</h2>
+          <button class="button-like"></button>
+        </div>
+      </div>
+      <div class="cards__item">
+        <img src="images/gallery/pr1.jpg" alt="Изображение в карточке галереи" class="cards__image">
+        <div class="cards__caption">
+          <h2 class="cards__item-name">Гора Эльбрус</h2>
+          <button class="button-like"></button>
+        </div>
+      </div>
+      <div class="cards__item">
+        <img src="images/gallery/pr1.jpg" alt="Изображение в карточке галереи" class="cards__image">
+        <div class="cards__caption">
+          <h2 class="cards__item-name">Домбай</h2>
+          <button class="button-like"></button>
+        </div>
+      </div>
+      <div class="cards__item">
+        <img src="images/gallery/pr1.jpg" alt="Изображение в карточке галереи" class="cards__image">
+        <div class="cards__caption">
+          <h2 class="cards__item-name">Гора Эльбрус</h2>
+          <button class="button-like"></button>
+        </div>
+      </div>
+      <div class="cards__item">
+        <img src="images/gallery/pr1.jpg" alt="Изображение в карточке галереи" class="cards__image">
+        <div class="cards__caption">
+          <h2 class="cards__item-name">Домбай</h2>
+          <button class="button-like"></button>
+        </div>
+      </div>
+      <div class="cards__item">
+        <img src="images/gallery/pr1.jpg" alt="Изображение в карточке галереи" class="cards__image">
+        <div class="cards__caption">
+          <h2 class="cards__item-name">Карачаево-Черкесия</h2>
+          <button class="button-like"></button>
+        </div>
+      </div>
     </section>
+    <div class="popup">  <!-- popup_opened Позиционируйте попап фиксированно по центру экрана и задайте окну полупрозрачный чёрный фон -->
+      <div class="popup__container">  <!-- Внутри него расположите само окно с формой popup__container, спозиционированное по центру.-->
+        <div class="popup__close-img"></div>
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <form action="index.html" method="post" class="form">
+          <input type="text" class="form__item form__item_element_profile-name" placeholder="Жак-Ив Кусто"> <!-- поле ввода для имени жав-ив который -->
+          <input type="text" class="form__item form__item_element_profile-activity" placeholder="Исследователь океана"> <!-- поле ввода для описания деятельности-->
+          <button type="submit" class="button-save">Сохранить</button>
+        </form>
+      </div>
+    </div>
   </main>
-  <footer class="footer content content_style_footer"></footer>
+  <footer class="footer content content_style_footer">
+    <h3 class="footer__copyright">&copy; 2021 Vilo4ka</h3>
+  </footer>
 </body>
 </html>
