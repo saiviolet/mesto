@@ -18,6 +18,7 @@
   opacity: .6;
   transition: opacity .5s ease-in-out;
 }
+
 /* кнопка на всю ширину*/
 @media (max-width : 676px) {
 

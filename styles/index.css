@@ -34,12 +34,10 @@
 @import url(blocks/button-like/button-like.css);
 @import url(blocks/button-save/button-save.css);
 /* футер */
-@import url(blocks/footer/footer.css);
 @import url(blocks/footer/__copyright/footer__copyright.css);
 /* для формы */
 @import url(blocks/form/form.css);
 @import url(blocks/form/__item/form__item.css);
-@import url(blocks/form/__item/_element/form__item_element_profile-name.css);
 @import url(blocks/form/__item/_element/form__item_element_profile-activity.css);
 /* всплывающее окно */
 @import url(blocks/popup/popup.css);

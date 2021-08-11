@@ -8,6 +8,7 @@
 }
 
 @media (max-width : 468px) {
+  
   .popup__title { 
     margin: 0 0 75px 0;
   }

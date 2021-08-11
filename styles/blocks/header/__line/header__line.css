@@ -9,7 +9,9 @@
 }
 
 @media (max-width : 320px) {
+
   .header__line {
     margin-top: 31.6px;
   }  
+  
 }

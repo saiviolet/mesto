@@ -5,7 +5,9 @@
 }
 
 @media (max-width : 320px) {
+
   .content_style_header {
     padding-top: 28px;
-  }  
+  } 
+
 }
