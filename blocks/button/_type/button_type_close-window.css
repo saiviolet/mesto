@@ -1,4 +1,5 @@
-.popup__close-img {
+.button_type_close-window {
+  background-color: transparent;
   position: absolute;
   top: -40px;
   right: -40px;
@@ -9,14 +10,9 @@
   background-size: contain;
 }
 
-.popup__close-img:hover {
-  opacity: .6;
-  transition: opacity .5s ease-in-out;
-}
-
 @media (max-width : 536px) {
 
-  .popup__close-img {
+  .button_type_close-window {
     width: 20px;
     height: 20px;
     top: -36px;
@@ -24,4 +20,3 @@
   }
 
 } 
-

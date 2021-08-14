@@ -15,18 +15,9 @@
 
 }
 
-@media (max-width : 425px) {
-
-  .profile__info-full {
-    flex-direction: column;
-  }
-
-}
-
 @media (max-width : 320px) {
 
   .profile__info-full {
-    flex-direction: column;
     flex-basis: 282px;
   }
     

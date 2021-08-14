@@ -1,4 +1,4 @@
-.button-save {
+.button_type_save {
   background-color: #000;
   color: #fff;
   min-width: 238px;
@@ -7,18 +7,16 @@
   max-height: 50px;
   font-size: 18px;
   line-height: 22px;
-  border: 0;
-  padding: 0;
 }
 
-.button-save:hover {
+.button_type_save:hover {
   opacity: .8;
   transition: opacity .5s ease-in-out;
 }
 
 @media (max-width : 468px) {
-
-  .button-save {
+  
+  .button_type_save {
     font-size: 14px;
     line-height: 17px;
   } 

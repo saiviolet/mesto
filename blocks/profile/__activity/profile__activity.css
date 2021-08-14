@@ -4,11 +4,16 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  max-width: 336px;
+  white-space: nowrap; /*запрет переноса строк */
+  overflow: hidden; /*скрыть лишак */
+  text-overflow: ellipsis; /*добавить 3 точки */
 }
 
 @media (max-width : 676px) {
 
   .profile__activity {
+    max-width: 282px;
     padding: 7px 0 33px;
     font-size: 14px;
     line-height: 17px;

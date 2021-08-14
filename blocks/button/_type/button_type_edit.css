@@ -1,27 +1,16 @@
-.button-edit {
-  cursor: pointer;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.button_type_edit {
   border: 1px solid #fff;
   background-image: url(../../../images/pencil.svg);
   background-size: 10px;
   background-position: 50% 50%; /* центрировать иконку */
-  background-repeat: no-repeat;
   background-color: #000;
   width: 24px;
   height: 24px;
-  opacity: 1;
-}
-
-.button-edit:hover {
-  opacity: .6;
-  transition: opacity .5s ease-in-out;
 }
 
 @media (max-width : 425px) {
 /* чутка увеличить кнопку для огромной карточки */
-  .button-edit {
+  .button_type_edit {
     width: 18px;
     height: 18px;
   }  
