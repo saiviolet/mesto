@@ -9,7 +9,7 @@
 }
 
 /* кнопка на всю ширину*/
-@media (max-width : 676px) {
+@media (max-width : 710px) {
 
   .button_type_add {
     width: 100%;

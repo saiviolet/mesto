@@ -6,7 +6,7 @@
   flex-basis: 486px;
 }
 
-@media (max-width : 676px) {
+@media (max-width : 710px) {
 
   .profile__info-full {
     flex-direction: column;

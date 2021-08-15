@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-@media (max-width : 676px) {
+@media (max-width : 710px) {
 
   .profile__info-first-line {
     justify-content: center;
